@@ -1,3 +1,7 @@
-import fs from 'fs';
+export function add(a: number, b: number): number {
+  return a + b;
+}
 
-console.log(fs.readFileSync('package.json', 'utf8'));
+export function multiply(a: number, b: number): number {
+  return a * b;
+}
